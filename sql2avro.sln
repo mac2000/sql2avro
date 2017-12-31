@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sql2avro", "sql2avro\sql2avro.csproj", "{7DF325E0-56D1-426A-9B0F-F29BC3942E63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DF325E0-56D1-426A-9B0F-F29BC3942E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF325E0-56D1-426A-9B0F-F29BC3942E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF325E0-56D1-426A-9B0F-F29BC3942E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF325E0-56D1-426A-9B0F-F29BC3942E63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {409F87C1-0C43-4FD4-BCDA-8492BBE63FCF}
+	EndGlobalSection
+EndGlobal
