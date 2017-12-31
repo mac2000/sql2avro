@@ -5,6 +5,6 @@ before_build:
 build:
   verbosity: minimal
 after_build:
-  - cmd: 7z a sql2avro.zip sql2avro\bin\Release\*.*
+  - cmd: cd sql2avro\bin\Release & 7z a sql2avro.zip *.*
 artifacts:
-- path: sql2avro.zip
+- path: sql2avro\bin\Release\sql2avro.zip
