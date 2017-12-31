@@ -4,7 +4,7 @@ before_build:
   - nuget restore
 build:
   verbosity: minimal
+after_build:
+  - cmd: 7z a sql2avro.zip sql2avro\bin\Release\*.*
 artifacts:
-- path: sql2avro\bin\$(configuration)\*.*
-  name: sql2avro
-  type: zip
+- path: sql2avro.zip
